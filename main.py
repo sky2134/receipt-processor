@@ -62,10 +62,6 @@ def calculate_points(receipt: Receipt) -> int:
         if len(description) % 3 == 0:
             points += math.ceil(float(item.price) * 0.2)
     
-    # # Rule 6: 5 points if total is greater than 10.00
-    # if float(receipt.total) > 10.00:
-    #     points += 5
-    
     # Rule 7: 6 points if purchase date is odd
     purchase_date = datetime.strptime(receipt.purchaseDate, '%Y-%m-%d')
     if purchase_date.day % 2 == 1:
