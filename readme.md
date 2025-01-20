@@ -1,11 +1,15 @@
-Receipt Processor API --  
+# Receipt Processor API  
 
 A FastAPI service that processes receipts and calculates points based on specific rules.
+
+
+
+## Instructions to build and run the application
 
 Step 1:
   Clone the Repository
   
-    git clone https://github.com/yourusername/receipt-processor.git
+    git clone https://github.com/sky2134/receipt-processor.git
 
   Step 2:
   Navigate to project directory
@@ -46,6 +50,6 @@ Step 6:
 
 1. Click on GET /receipts/{id}/points endpoint
 2. Click the "Try it out" button
-3. Paste the ID you received from step 2 into the 'id' field
+3. Paste the ID you received from step 5 into the 'id' field
 4. Click "Execute"
 5. You'll see the points calculated for your receipt
