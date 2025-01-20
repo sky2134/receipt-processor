@@ -40,7 +40,7 @@ Step 5:
 
 1. Click on POST /receipts/process endpoint
 2. Click the "Try it out" button
-3. In the Request body, paste your receipt JSON
+3. In the Request body, paste your receipt JSON or copy from the examples folder and paste it
 4. Click "Execute"
 5. You'll receive a response with an ID
 6. IMPORTANT: Copy this ID for the next step!
