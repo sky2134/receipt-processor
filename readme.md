@@ -17,11 +17,11 @@ Step 3:
 
 Build the Docker image:
 
-      docker build -t receipt-processor .
+    docker build -t receipt-processor .
 
 Run the container:
 
-      docker run -p 8000:8000 receipt-processor
+    docker run -p 8000:8000 receipt-processor
 
 Step 4:
 API Documentation
@@ -29,8 +29,8 @@ API Documentation
 1. Open your browser and navigate to http://localhost:8000
 2. You'll see the API documentation with two endpoints:
 
-        POST /receipts/process
-        GET /receipts/{id}/points
+       POST /receipts/process
+       GET /receipts/{id}/points
 
 Step 5:
 
